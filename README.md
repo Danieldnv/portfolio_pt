@@ -3,7 +3,7 @@
 
 Listo abaixo alguns dos projetos que realizei utilizando R, Python e LaTex. *Outros projetos que realizei podem ser encontrados [aqui](https://github.com/Danieldnv/portfolio_pt/tree/main/outros_codigos)*  
 
-## Para acessar os códigos, por favor, clique no título de cada projeto
+
 # Explorando a PNADc
 Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa nacional por amostra de domicílio contínua *do 3º trimestre de 2024*, realizada pelo IBGE. Com os microdados obtidos, é possível calcular múltiplas variáveis e taxas da economia brasileira. Entre as diversas informações que calculei, algumas são:
 
