@@ -13,7 +13,7 @@ Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa na
 * O percentual de mulheres brancas que tem de 20 a 30 anos e estão desempregadas: 8,479%.
 * A proporção da população brasileira por raça (valores aproximados): 42% são brancos, 10% são pretos, 0,6% são amarelos, 46% são pardos, 0,4% são indígenas, 0,01% ignorados. 
 
-  A pesquisa é de grande valia para diversas aplicações. Com os dados obtidos, é atingida uma visão da situação macroeconômica do país. Com o pacote criado pelos próprios funcionários do IBGE, é viável obter variáveis específicas da PNADc, sem ser necessário enfrentar a carga de dados não utilizados no projeto em questão (mesmo assim, ainda é uma grande quantidade de informações).
+  A pesquisa é de grande valia para diversas aplicações. Com os dados obtidos, é possível obter uma boa visão da situação econômica do país. Com o pacote criado pelos próprios funcionários do IBGE, existe uma função que me permite selecionar apenas as variáveis que desejo da PNADc, sem precisar enfrentar a carga de dados não necessários para o projeto em questão (mesmo assim, ainda é uma grande quantidade de informações).
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/pnadcibge_portfolio.R)
 
 
@@ -26,7 +26,7 @@ Com o pacote que obtém os dados com a API oficial do Banco central do Brasil, c
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/animated_plot.R)
 
 # Preços de fechamento das ações da Tesla e Apple
-Utilizando a biblioteca "yfinance" (pacote que obtém dados utilizando as APIs do yahoo finance), coletei os dados das ações das empresas mencionadas e construí um gráfico destacando o preço mais alto para cada ativo durante período análisado (01/01/2019 até 01/10/2024), além de incluir o principal impacto na queda das ações causado pela pandemia. É possível observar que apesar de grande queda durante o COVID-19, os preços de ambas as ações se recuperaram e subiram em taxas muito altas.  
+Utilizando a biblioteca "yfinance" (pacote que obtém dados utilizando as APIs do yahoo finance), coletei as informações das ações das empresas mencionadas e gerei um gráfico destacando o preço mais alto para cada ativo durante período análisado (01/01/2019 até 01/10/2024), além de incluir o principal impacto na queda das ações causado pela pandemia. É possível observar que apesar de grande queda durante o COVID-19, os preços de ambas as ações se recuperaram e subiram em taxas muito altas.  
 <p align="center">
   <img src="imagens_pt/df6831ef-faf7-4f53-b3ac-21cd29a3d408.png" width="70%"> 
 </p>  
@@ -55,6 +55,7 @@ Apesar de não ser voltado diretamente a ciência de dados, acredito que com as 
 </p>  
 
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/estatistica.tex)
+
 
 
 ## Estatísitica - LaTex
