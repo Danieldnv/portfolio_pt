@@ -1,0 +1,316 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage[a4paper, left=.8in, right=.8in, top=1in, bottom=1in]{geometry}
+\usepackage{amssymb}
+\title{2º-GQ-Matemática}
+\author{Daniel Vital}
+\date{November 2024}
+
+\begin{document}
+
+\maketitle
+
+\textbf{Introdução}\\
+
+Variáveis independentes: São as variáveis inseridas e controladas no modelo/cálculo matemático. São as "entradas" (inputs) do sistema\\
+
+\noindent{Variáveis dependentes: variam em função das} independentes.\\
+
+\[
+\underbrace{y}_{\substack{\text{Var.}\\\text{Depend.}}}=f\underbrace{(x)}_{\substack{\text{Var.}\\\text{Indep.}}}
+\]
+
+\section{Equações diferenciais de primeira ordem}
+Geralmente, a solução de um cálculo diferencial é a integral da mesma.\\
+A palavra ordem refere-se à mais alta ordem das derivadas  (ou diferenciais) que aparecem na equação diferencial.\\
+O grau da equação é dado pelo número que eleva \textbf{exclusivamente a maior derivada}\\
+Para que a equação seja \textbf{linear}:
+\begin{itemize}
+    \item a derivada $\frac{dy}{dt}$ e a variável dependente ($y$) aparecem apenas no primeiro grau
+    \item não existe nenhum produto na forma $y\cdot \left( \frac{dy}{dt} \right)$
+\end{itemize}
+
+
+{\noindent{Therefore, em geral, uma equação diferencial linear de primeira ordem assume a seguinte forma:}
+\[\frac{dy}{dt} + u(t)\cdot y = w(t)\]\\
+Onde: \\
+$u, w \; \text{e} \;y$ são funções de $t$\\
+Nenhuma restrição é imposta a variável independente $t$\\
+$u $ e $w$ podem ser constantes, bem como representar expressões  como $t^2$ e $e^t$\\
+
+
+quando a função $u$ (o coeficiente da variável dependente $y$) é uma constante, e quando a função $w$ é um termo constante aditivo:\\ reduz-se ao caso especial de uma equação diferencial linear com coeficiente constante e termo constante. Vamos trabalhar, por enquanto, apenas com esse tipo simples de ED.\\
+
+\textbf{O caso homogêneo}. se $u$ e $w$ são funções constantes e $w=0$, fica:\\
+\[\frac{dy}{dt} + ay = 0\] ou \[\frac{dy}{dt} \frac{1}{y}=-a\]
+
+\newpage
+A solução será:
+\[y(t)= \textit{A}e^{-at} \hspace{1cm} \text{[solução geral ; \textit{A} = Cte]}\] ou
+\[y(t)=y(0)e^{-at} \hspace{1cm} \text{[solução definida]}\]\\
+\section{E.D.O - Resolvendo}
+
+
+para uma estrutura: $\frac{dy}{dx}+P(x)y=Q(x)$
+\\
+
+Ex: \[\frac{dy}{dx}+2y=10\]
+\begin{enumerate}
+    \item Calcular o fator integrante $\mu (x)$\\
+    
+    \textbf{Fator integrante $\mu (x)$ = {\large$e^{\int P(x)dx\ }$}}\;\;\;\; $e^{\int 2dx}=e^{2x}$ $\; \xrightarrow{}  \;\;\mu(x)= e^{2x} $
+    \item Multiplicar os dois lados pelo fator\\
+    
+    \[\left(\frac{dy}{dx}+2y \right)\cdot e^{2x}=10\cdot e^{2x}\]
+    \[\underbrace{e^{2x}\frac{dy}{dx}+2e^{2x}y}_{(e^{2x}\cdot y)'} = 10e^{2x} \]
+    
+    \item Reescrever (fator $\times  \;y$)' = ... \;; para facilitar o cálculo\\
+    
+    (fator $\times \; y )' = (e^{2x}\cdot y)' $\\
+    substituindo:\\
+    \[\underbrace{(e^{2x}\cdot y)'}_{e^{2x}\frac{dy}{dx}+2e^{2x}y} = 10e^{2x}\]
+
+    \item Calcular a integral dos dois lados da equação
+    \[\int(e^{2x}\cdot y)'\ = \int 10e^{2x}\ \]
+    $\int(e^{2x}\cdot y)'\ = e^{2x} \cdot y$ 
+    \[e^{2x}\cdot y = 10\cdot \frac{1}{2} \cdot e^{2x} + C\]\\
+    \[\underbrace{\boxed{y= 5 + e^{-2x}C}}_{\substack{\text{Solução }\\\text{Geral  da E.D.O}}}\]
+    
+\end{enumerate}
+ A solução geral é a função que torna a sentença (E.D.O) verdadeira.
+%É diferencial pois, dentro da função há uma incógnita e a derivada dessa incógnita.\\
+%A incógnita depende apenas de uma variável independente.
+
+$ e^{-2 \log_e(x)} = \left(e^{\log_e(x)}  \right)^{-2} $
+
+\newpage
+\section{Equações diferenciais Homogêneas de 2ª ordem com Coeficientes constantes}
+A equação possui a seguinte estrutura
+\[
+\left\{
+\begin{aligned}
+y'' = f(x,y,y'') \\
+ay(x)''+by(x)'+cy(x) = 0 
+\end{aligned}
+\right.
+\]
+
+Sendo $a, \; b\;, c\; \in\;\mathbb{R}$ (São Ctes) \;\; ; \;\; $a\neq 0$\\
+
+
+exemplos de estruturas:\\
+$y''-y=0$\\
+$2y''+3y'+y=0$\\
+\\
+
+
+{\large\noindent{A solução (que tem a mesma propriedade da solução da EDO) é dada por:}}\\
+\[y(x)=e^{rx}\]
+$e\approx 2,7182$\\
+
+substituindo na equação:
+\[a(e^{rx})''+b(e^{rx})'+c(e^{rx})=0\]
+\[a\cdot r^2e^{rx}+b\cdot re^{rx}+c\cdot e^{rx}=0\]
+\[e^{rx}(ar^2+br+c)=0\]
+
+
+se $a\cdot b=0\therefore a=0 \;\;\text{ou} \;\;b=0$\\
+\indent{porém, $e^{rx} \neq 0$, \;\;\;logo, $(ar^2+br+c)=0$}\\
+
+Para resolver $(ar^2+br+c)=0$, usaremos bhaskara.
+Temos que estudar os casos do $\Delta$, pois para cada caso, temos soluções distintas\\
+$c_1 \;\text{e} \;c_2$ são constantes arbitrárias. Isto é: Podem assumir qualquer valor, e são determinadas por informações adicionais. Sem condições iniciais, a Eq. diferencial tem infinitas soluções, representadas pelas constantes.\\
+
+\begin{enumerate}
+    \item Para o $\Delta > 0\hspace{5cm}$ {\small{Para todo $\Delta >0$, existem duas raízes reais e distintas}}\\
+    A solução será:\[\boxed{y(x)=c_1\cdot e^{r_1x}+c_2\cdot e^{r_2x}}\]
+    onde $r_1$ e $r_2$ são as raízes\\
+    
+    $y''-5y'+6y =0\xrightarrow{\;}r^2-5r+6y=0$\\
+    $\Delta= b^2-4ac$\\
+    $\displaystyle\Delta = (-5)^2-4\cdot 1\cdot 6\hspace{3cm} \frac{-b\pm \sqrt{\Delta}}{2a}=r_1=2$ \;;\; $r_2=3$\\
+    $\Delta=1$\\
+    $\displaystyle \Delta >0 \;\;\therefore \hspace{3cm} y(x)=c_1\cdot e^{2x}+c_2\cdot e^{3x}$
+\newpage
+    \item Para o $\Delta =0$\\
+    A solução será:
+    \[\boxed{y(x)=c_1 e^{rx}+c_2\cdot xe^{rx}}\]
+
+    \item  Para o $\Delta <0$\\
+    A solução será:\\
+    \[\boxed{y(x)= e^{\alpha x}(c_1\cdot cos(\beta x) + c_2\cdot  sen(\beta x))}\]\\
+    sendo: $\alpha$ a parte real \;\; ;\;\; $\beta$ a parte imaginária\\
+    Os resultados serão duas raízes complexas conjugadas:\;\;
+    \;\;\;\;\;\;\; $r_1=\lambda + \mu i$ \;\; e \;\; $r_2=\lambda - \mu i$\\
+    importante: O sinal negativo de $\beta=\pm 1$ é desprezado. Considera-se apenas o valor absoluto (positivo), pois $cos(-x)=cos(x)$ e $sen(-x)=-sen(x)$\\
+
+    Exemplo:
+    $y''-2y'+2y=0\therefore \xrightarrow{\text{E.C}} r^2-2r+2=0$\\
+    $\Delta = (-2)^2-4\cdot 1\cdot 2=-4$\\
+
+    $\sqrt{-4}=\sqrt{4\cdot(-1)}=\sqrt{4}-\overbrace{\sqrt{-1}}^{i}=2i \hspace{2cm}$\\
+
+    Achado o valor do $\Delta$, podemos resolver com uma diferença apenas na maneira de se escrever:\\
+
+    $\displaystyle \therefore\;\;\;\;\;\frac{-(-2)\pm \sqrt{-4}}{2\cdot 1}=\frac{2 \pm2i}{2}= \underbrace{\frac{2}{2} \pm \frac{2i}{2}}_{\text{atenção}}= 1\pm 1i\;\;\;\;\Rightarrow{} \;\;\;\;\;\;\alpha=1 \;\;;\;\;\beta=1$ \hspace{2.5cm} \text{{\footnotesize{O $\beta$ não inclui ``$i$''}}}\\
+
+    Ou:\\
+
+    $\therefore \displaystyle\;\;\;\;\;\frac{-(-2)\pm \sqrt{-4}}{2\cdot 1}=\frac{2 \pm2i}{2} \Rightarrow{}\;\;\; r_1=\frac{2+2i}{2}=1+1i \;\;\;;\;\;\; r_2=\frac{2-2i}{2}=\underbrace{1-1i}_{\lambda - \mu i}$\\
+
+       
+    Independentemente, o resultado será:
+
+    \[\therefore \;\;y(x)= e^{1 x}(c_1\cdot cos1 x + c_2\cdot  sen1 x)\]
+\section{Números Complexos}
+Todo número real é complexo, mas nem todo complexo é real\\
+
+\noindent{determinaremos $\sqrt{-1}$ como $i$, sendo $i\Rightarrow{}$unidade imaginária de número complexo}\\
+
+
+exemplo:\\
+ $\sqrt{-4}=\sqrt{4\cdot(-1)}=\sqrt{4}\cdot\overbrace{\sqrt{-1}}^{i}=\boxed{2i} \hspace{2cm}$\\
+ $i\Rightarrow{}$ unidade imaginária de número complexo\\
+ 
+
+
+ \noindent{$\sqrt{-36}=\sqrt{36\cdot(-1)}=\sqrt{36}\cdot\overbrace{\sqrt{-1}}^{i}=\boxed{6i} \hspace{2cm}$}\\
+
+    
+    
+\end{enumerate}
+
+\newpage
+\section{Problema do Valor Inicial}
+Para resolver o P.V.I, devemos seguir os seguintes passos:\\
+\begin{enumerate}
+    \item Resolver a equação diferencial
+    \item Calcular a primeira derivada da solução (Apenas na EDO de segunda ordem)
+    \item Substituir valores iniciais (Nos casos de EDOs de 2ª ordem, obtêm-se sistemas de equação)
+    \item Resolver a equação/equações para achar a(s) contante(s)
+    \item Aplicar a(s) constante(s) encontrada(s) na solução geral
+\end{enumerate}
+
+\noindent{Exemplo: Resolva o PVI:}\\
+\[
+\left\{
+\begin{aligned}
+y''-5y'+6y=0 \\
+y(0)=2\\
+y'(0)=5
+\end{aligned}
+\right.
+\]
+\begin{enumerate}
+    \item Achando a solução geral\\
+    $y''-5y'+6y \Rightarrow{} r^2-5r+6=0$\\
+    $r_1=2\\
+     r_2=3$\\
+     $\therefore \text{A solução geral será}\;\;\;y(x)=c_1\cdot e^{2x}+c_2\cdot e^{3x}$
+     \item Derivando a solução Geral\\
+     $y(x)=c_1\cdot e^{2x}+c_2\cdot e^{3x}$\\
+     $y'(x)=2c_1e^{2x}+3c_2e^{3x}$
+     \item Substituindo os valores iniciais:\\
+     $y(0)=2$\\
+     $y(x)=c_1\cdot e^{2x}+c_2\cdot e^{3x} \xleftarrow{\;\;\;\;\;\;\;} \text{Se o valor inicial se refere a função não derivada, usamos ela}$\\
+     $y(0)=c_1\cdot e^{2\cdot0}+c_2\cdot e^{2\cdot0}$\\
+     $y(0)=c_1+c_2$\\
+     $y(0)=2 \;\therefore\; \boxed{c_1+c_2=2}$\\
+
+     $y'(0)=5$\\
+     $y'(x)=2c_1e^{2x}+3c_2e^{3x}\xleftarrow{\;\;\;\;\;\;}\text{Usando, agora, a função derivada}$\\
+     $y'(0)=2c_1e^{2\cdot 0}+3c_2e^{3\cdot0}$\\
+     $y'(0)= 2c_1+3c_2$\\
+     $y'(0)= 5 \;\therefore\; \boxed{2c_1+3c_2=5}$\\
+     \item Montando o sistema com as equações que achamos\\
+     \[
+\left\{
+\begin{aligned}
+c_1+c_2=2 \\
+2c_1+3c_2=5
+\end{aligned}
+\right.
+\]
+$\therefore c_1=1$\;\;;\;\;$c_2=1$
+
+\item Aplicando na solução geral que achamos\\
+Sendo $c_1=1$\;\;e\;\;$c_2=1$\\
+\[y(x)=c_1\cdot e^{2x}+c_2\cdot e^{3x}\]
+\[\therefore \underbrace{\boxed{y(x)=e^{2x}+e^{3x}}}_{\text{Solução do P.V.I}}\]
+     
+\end{enumerate}
+
+
+\section{Integrais}
+\subsection{Integral Por Substituição}
+relembre a regra da cadeia\\
+\[\displaystyle[F(g(x))]'=F'(g\left(x\right))\cdot g'(x)\]\\
+Integrando essa função:
+\[\displaystyle \int [F(g(x))]'dx = \int F'(g\left(x\right))\cdot g'(x)dx\]
+\[F(g(x))+C=\int F'(g\left(x\right))\cdot g'(x)dx\]\\
+aplicando a substituição:
+\[\displaystyle\int F'(\underbrace{g\left(x\right)}_{u})\cdot \underbrace{g'(x)}_{du}dx=F(g(x))+C\]
+\[\therefore \int F'(u)\cdot du=F(u)+C\]
+{\indent{Ou seja, para aplicar a substituição, precisamos obter uma integral que possua: Uma função e sua respectiva derivada.}}\\
+
+\noindent{Exemplo:}\\
+$\displaystyle \int 6x^2(2x^3-1)^{99}dx\;\;\;\;= \;\;\;\;\int du\cdot u^{99}= \frac{u^{100}}{100}+C=\frac{(2x^3-1)^{100}}{100}+C$\\ 
+
+\noindent{} $u=2x^3-1\\
+\frac{du}{dx}=6x^2\\
+du=6x^2dx$\\
+
+\noindent{}Exemplo 2:\\
+$\displaystyle \int \frac{2x}{1+x^2}dx= \;\; \underbrace{\int\frac{du}{u}=ln(u)+C}_{\text{Regra}}=\; ln(1+x^2)+C$\\
+
+\noindent{}$u= 1+x^2\\
+\frac{du}{dx}=2x\\
+du=2x\cdot dx$\\
+
+\noindent{}Exemplo 3: \hspace{2cm} $\int cos(x+7)dx=cos(u)du= sen(u)+C=\sin(x+7)+C$\\
+
+
+\noindent{} Exemplo 4:\\
+$\displaystyle \int \frac{dx}{(3x-5)^8}= \int \frac{\frac{du}{3}}{u^8}=\int \frac{du}{3}\cdot\frac{1}{u^8}\;=\; \frac{1}{3} \int u^{-8}du\;=\; \frac{1}{3}\cdot\frac{u^{-7}}{-7}+C\;=\; \frac{-(3x-5)^{-7}}{21}+C$\\
+$u=3x-5\\
+\frac{du}{dx}=3\\
+du=3dx\\
+\frac{du}{3}=dx$\\
+\newpage
+\section{Integral por partes}
+Podemos lembrar a regra do produto, nas derivadas, para fixar:\\
+Prestar atenção ao escolher ``$dv$" e ``$u$" para simplificar a resolução.\\
+
+\[(u\cdot v)'=du \cdot v\;+\;u\cdot dv\]
+{\indent{integrando os dois lados:}}\\
+\[u\cdot v=\int du\cdot v\;+\; \int u\cdot dv\]
+{\indent{Reorganizando a equação:}}\\
+\[\boxed{\int u\cdot dv= u\cdot v \;-\; \int v\cdot du}\]\\
+
+\noindent{}Exemplo:\\
+$\int xe^x\,dx\\ \int u\cdot dv= u\cdot v \;-\; \int v\cdot du$\\
+$ \int xe^xdx= x\cdot e^x-\int e^x\cdot1\,dx$\\
+
+O resultado será:
+\[\therefore\int xe^xdx= xe^x \;-\; e^x+C\]
+
+\noindent{$u=x\\
+\frac{du}{dx}=1\\
+du=dx\\$}\\
+$dv = e^xdx\\
+v=e^x\xleftarrow{\;\;\;}$ Se a derivada é $e^x$, qual a função que ao ser derivada, é $e^x?$\\
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
