@@ -56,13 +56,14 @@ Apesar de não ser voltado diretamente a ciência de dados, acredito que com as 
   <img src="imagens_pt/Captura de tela 2024-12-30 123311.png" width="40%"> 
 </p>  
 
-[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/estatistica.tex)
-
-
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/matematica.tex)
 
 ## Estatísitica - LaTex
 <p align="center">
   <img src="imagens_pt/Captura de tela 2024-12-30 122753.png" width="50%"> 
 </p>  
 
-[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/matematica.tex)
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/estatistica.tex)
+
+
+
