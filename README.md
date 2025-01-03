@@ -33,7 +33,7 @@ Utilizando a biblioteca "yfinance" (pacote que obtém dados através das APIs do
   <img src="imagens_pt/df6831ef-faf7-4f53-b3ac-21cd29a3d408.png" width="70%"> 
 </p>  
 
-[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/acoes_dolar_ibov.ipynb)
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/tesla_apple.ipynb)
 
 # MGLU3, dólar e índice ibovespa
 Nesse projeto, também utilizando a "yfinance", construí um gráfico do preço de fechamento da ação da magazine luiza e a sua média móvel no período analisado.
