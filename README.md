@@ -1,7 +1,7 @@
 # Portfólio - Daniel Nunes Vital
 ### nunesvitald@gmail.com 
 
-Listo abaixo alguns dos projetos que realizei utilizando R, Python e LaTex. *Outros projetos que realizei podem ser encontrados [aqui](https://github.com/Danieldnv/portfolio_pt/tree/main/codigos)*  
+Listo abaixo alguns dos projetos que realizei utilizando R, Python e LaTex. *Outros projetos que realizei podem ser encontrados [aqui](https://github.com/Danieldnv/portfolio_pt/tree/main/outros_codigos)*  
 
 ## Para acessar os códigos, por favor, clique no título de cada projeto
 # Explorando a PNADc
