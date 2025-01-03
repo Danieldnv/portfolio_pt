@@ -1,10 +1,10 @@
 # Portfólio - Daniel Nunes Vital
-### nunesvitald@gmail.com
+### nunesvitald@gmail.com 
 
-Listo abaixo alguns dos projetos que realizei utilizando R, Python e LaTex. *Outros projetos que realizei podem ser encontrados [aqui](https://github.com/Danieldnv/portfolio_codes_pt)*  
+Listo abaixo alguns dos projetos que realizei utilizando R, Python e LaTex. *Outros projetos que realizei podem ser encontrados [aqui]()*  
 
 ## Para acessar os códigos, por favor, clique no título de cada projeto
-# [Explorando a PNADc](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/pnadcibge_portfolio.R)  
+# Explorando a PNADc
 Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa nacional por amostra de domicílio contínua *do 3º trimestre de 2024*, realizada pelo IBGE. Com os microdados obtidos, é possível calcular múltiplas variáveis e taxas da economia brasileira. Entre as diversas informações que calculei, algumas são:
 
 * Taxa de desemprego do Brasil: 6,362%
@@ -13,40 +13,53 @@ Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa na
 * O percentual de mulheres brancas que tem de 20 a 30 anos e estão desempregadas: 8,479%.
 * A proporção da população brasileira por raça (valores aproximados): 42% são brancos, 10% são pretos, 0,6% são amarelos, 46% são pardos, 0,4% são indígenas, 0,01% ignorados. 
 
-  A pesquisa é de grande valia para diversas aplicações. Com os dados obtidos, é atingida uma visão da situação macroeconômica do país. Com o pacote criado pelos próprios funcionários do IBGE, é viável obter variáveis específicas da PNADc, sem ser necessário enfrentar a carga de dados não utilizados no projeto em questão (mesmo assim, ainda é uma grande quantidade de informações).   
+  A pesquisa é de grande valia para diversas aplicações. Com os dados obtidos, é atingida uma visão da situação macroeconômica do país. Com o pacote criado pelos próprios funcionários do IBGE, é viável obter variáveis específicas da PNADc, sem ser necessário enfrentar a carga de dados não utilizados no projeto em questão (mesmo assim, ainda é uma grande quantidade de informações).
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/pnadcibge_portfolio.R)
 
 
-# [Inadimplência de pessoa física e jurídica no Brasil - gráfico animado](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/animated_plot.R)
+# Inadimplência de pessoa física e jurídica no Brasil - gráfico animado
 Com o pacote que obtém os dados com a API oficial do Banco central do Brasil, calculei a taxa mensal de inadimplência por pessoa física e jurídica, partindo de 2011 (a data final é a data do sistema), construí um gráfico utilizando o GGplot e animei o gráfico para mostrar a variação das taxas ao longo do tempo. 
 <p align="center">
   <img src="imagens_pt/LDE_animação_pronto.gif" width="50%"> 
-</p>
+</p>  
 
-# [Preços de fechamento das ações da Tesla e Apple](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/tesla_apple.ipynb)
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/animated_plot.R)
+
+# Preços de fechamento das ações da Tesla e Apple
 Utilizando a biblioteca "yfinance" (pacote que obtém dados utilizando as APIs do yahoo finance), coletei os dados das ações das empresas mencionadas e construí um gráfico destacando o preço mais alto para cada ativo durante período análisado (01/01/2019 até 01/10/2024), além de incluir o principal impacto na queda das ações causado pela pandemia. É possível observar que apesar de grande queda durante o COVID-19, os preços de ambas as ações se recuperaram e subiram em taxas muito altas.  
 <p align="center">
   <img src="imagens_pt/df6831ef-faf7-4f53-b3ac-21cd29a3d408.png" width="70%"> 
-</p>
+</p>  
 
-# [Dados de ações, dólar e índice ibovespa](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/acoes_dolar_ibov.ipynb)
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/acoes_dolar_ibov.ipynb)
+
+# Dados de ações, dólar e índice ibovespa
 Nesse projeto, também utilizando a "yfinance", construí um gráfico do preço de fechamento da ação da magazine luiza e a sua média móvel no período analisado.
-Também analisei a variação do índice ibovespa e do dólar para o mesmo perído, sendo possível, a partir dos gráficos, comparar o desempenho e correlação da variação do índice em função do dólar.
+Também analisei a variação do índice ibovespa e do dólar para o mesmo perído, sendo possível, a partir dos gráficos, comparar o desempenho e correlação da variação do índice em função do dólar.  
 <p align="center">
   <img src="imagens_pt/2eebda9d-2226-4b7b-ab02-c1fc71398c25.png" width="40%"> 
 </p>
 
 <p align="center">
   <img src="imagens_pt/c0baa4bb-f475-4ae1-a6dd-c4cbb263e738.png" width="60%"> 
-</p>
+</p>  
+
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/acoes_dolar_ibov.ipynb)
+
 
 # LaTex
 Apesar de não ser voltado diretamente a ciência de dados, acredito que com as habilidades que desenvolvi ao realizar esses projetos, posso contribuir grandemente para trabalhos em LaTex, caso seja uma demanda da empresa. O código constrói integrais, derivadas expoentes, divisões, multiplicações, chaves, gráfico, letras gregas e outros símbolos 
-## [Matemática - LaTex](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/2_gq_matematica.tex)  
+## Matemática - LaTex 
 <p align="center">
   <img src="imagens_pt/Captura de tela 2024-12-30 123311.png" width="40%"> 
-</p>
+</p>  
 
-## [Estatísitica - LaTex](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/estatistica.tex)
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/estatistica.tex)
+
+
+## Estatísitica - LaTex
 <p align="center">
   <img src="imagens_pt/Captura de tela 2024-12-30 122753.png" width="50%"> 
-</p>
+</p>  
+
+[Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/matematica.tex)
