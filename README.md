@@ -22,21 +22,22 @@ Com o pacote que obtém os dados com a API oficial do Banco central do Brasil, c
 <p align="center">
   <img src="imagens_pt/LDE_animação_pronto.gif" width="50%"> 
 </p>  
-Observação: A definição dos dados em questão é, de acordo com o site do banco central: *Percentual da carteira de crédito do Sistema Financeiro Nacional com pelo menos uma parcela com atraso superior a 90 dias. Inclui operações contratadas no segmento de crédito livre e no segmento de crédito direcionado.*
+
+Observação: De acordo com o site do banco central, a definição dos dados que trabalhei é: *Percentual da carteira de crédito do Sistema Financeiro Nacional com pelo menos uma parcela com atraso superior a 90 dias. Inclui operações contratadas no segmento de crédito livre e no segmento de crédito direcionado.* [Verifique aqui](https://dadosabertos.bcb.gov.br/dataset/21083-inadimplencia-da-carteira-de-credito---pessoas-juridicas---total)
 
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/animated_plot.R)
 
 # Preços de fechamento das ações da Tesla e Apple
-Utilizando a biblioteca "yfinance" (pacote que obtém dados utilizando as APIs do yahoo finance), coletei as informações das ações das empresas mencionadas e gerei um gráfico destacando o preço mais alto para cada ativo durante período análisado (01/01/2019 até 01/10/2024), além de incluir o principal impacto na queda das ações causado pela pandemia. É possível observar que apesar de grande queda durante o COVID-19, os preços de ambas as ações se recuperaram e subiram em taxas muito altas.  
+Utilizando a biblioteca "yfinance" (pacote que obtém dados através das APIs do yahoo finance), coletei as informações das ações das empresas mencionadas e gerei um gráfico destacando o preço mais alto para cada ativo durante período análisado (01/01/2019 até 01/10/2024), além de incluir o principal impacto na queda das ações causado pela pandemia. É possível observar que, apesar de grande queda durante o COVID-19, os preços de ambas as ações se recuperaram e subiram em taxas muito altas.  
 <p align="center">
   <img src="imagens_pt/df6831ef-faf7-4f53-b3ac-21cd29a3d408.png" width="70%"> 
 </p>  
 
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/acoes_dolar_ibov.ipynb)
 
-# Dados de ações, dólar e índice ibovespa
+# MGLU3, dólar e índice ibovespa
 Nesse projeto, também utilizando a "yfinance", construí um gráfico do preço de fechamento da ação da magazine luiza e a sua média móvel no período analisado.
-Também analisei a variação do índice ibovespa e do dólar para o mesmo perído, sendo possível, a partir dos gráficos, comparar o desempenho e correlação da variação do índice em função do dólar.  
+Também observei a variação do índice ibovespa e do dólar para o mesmo perído, sendo possível, a partir dos gráficos, comparar o desempenho e correlação da variação do índice em função do dólar.  
 <p align="center">
   <img src="imagens_pt/2eebda9d-2226-4b7b-ab02-c1fc71398c25.png" width="40%"> 
 </p>
