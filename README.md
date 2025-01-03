@@ -19,34 +19,34 @@ Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa na
 # [Inadimplência de pessoa física e jurídica no Brasil - gráfico animado](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/animated_plot.R)
 Com o pacote que obtém os dados com a API oficial do Banco central do Brasil, calculei a taxa mensal de inadimplência por pessoa física e jurídica, partindo de 2011 (a data final é a data do sistema), construí um gráfico utilizando o GGplot e animei o gráfico para mostrar a variação das taxas ao longo do tempo. 
 <p align="center">
-  <img src="LDE_animação_pronto.gif" width="50%"> 
+  <img src="imagens_pt/LDE_animação_pronto.gif" width="50%"> 
 </p>
 
 # [Preços de fechamento das ações da Tesla e Apple](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/tesla_apple.ipynb)
 Utilizando a biblioteca "yfinance" (pacote que obtém dados utilizando as APIs do yahoo finance), coletei os dados das ações das empresas mencionadas e construí um gráfico destacando o preço mais alto para cada ativo durante período análisado (01/01/2019 até 01/10/2024), além de incluir o principal impacto na queda das ações causado pela pandemia. É possível observar que apesar de grande queda durante o COVID-19, os preços de ambas as ações se recuperaram e subiram em taxas muito altas.  
 <p align="center">
-  <img src="2b76f4c2-ddd3-4bb6-a75e-81fdba703712.png" width="70%"> 
+  <img src="imagens_pt/df6831ef-faf7-4f53-b3ac-21cd29a3d408.png" width="70%"> 
 </p>
 
 # [Dados de ações, dólar e índice ibovespa](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/acoes_dolar_ibov.ipynb)
 Nesse projeto, também utilizando a "yfinance", construí um gráfico do preço de fechamento da ação da magazine luiza e a sua média móvel no período analisado.
 Também analisei a variação do índice ibovespa e do dólar para o mesmo perído, sendo possível, a partir dos gráficos, comparar o desempenho e correlação da variação do índice em função do dólar.
 <p align="center">
-  <img src="f16ec248-c168-4819-8f72-8b00d5831e2d.png" width="40%"> 
+  <img src="imagens_pt/2eebda9d-2226-4b7b-ab02-c1fc71398c25.png" width="40%"> 
 </p>
 
 <p align="center">
-  <img src="4b9d85ea-2a07-4eaa-9ac8-0f6b824e4d12.png" width="60%"> 
+  <img src="imagens_pt/c0baa4bb-f475-4ae1-a6dd-c4cbb263e738.png" width="60%"> 
 </p>
 
 # LaTex
 Apesar de não ser voltado diretamente a ciência de dados, acredito que com as habilidades que desenvolvi ao realizar esses projetos, posso contribuir grandemente para trabalhos em LaTex, caso seja uma demanda da empresa. O código constrói integrais, derivadas expoentes, divisões, multiplicações, chaves, gráfico, letras gregas e outros símbolos 
 ## [Matemática - LaTex](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/2_gq_matematica.tex)  
 <p align="center">
-  <img src="Captura de tela 2024-12-30 123311.png" width="40%"> 
+  <img src="imagens_pt/Captura de tela 2024-12-30 123311.png" width="40%"> 
 </p>
 
 ## [Estatísitica - LaTex](https://github.com/Danieldnv/portfolio_codes_pt/blob/main/estatistica.tex)
 <p align="center">
-  <img src="Captura de tela 2024-12-30 122753.png" width="50%"> 
+  <img src="imagens_pt/Captura de tela 2024-12-30 122753.png" width="50%"> 
 </p>
