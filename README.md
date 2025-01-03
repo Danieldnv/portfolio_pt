@@ -13,7 +13,7 @@ Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa na
 * O percentual de mulheres brancas que tem de 20 a 30 anos e estão desempregadas: 8,479%.
 * A proporção da população brasileira por raça (valores aproximados): 42% são brancos, 10% são pretos, 0,6% são amarelos, 46% são pardos, 0,4% são indígenas, 0,01% ignorados. 
 
-  A pesquisa é de grande valia para diversas aplicações. Com os dados obtidos, é possível obter uma boa visão da situação econômica do país. Com o pacote criado pelos próprios funcionários do IBGE, existe uma função que me permite selecionar apenas as variáveis que desejo da PNADc, sem precisar enfrentar a carga de dados não necessários para o projeto em questão (mesmo assim, ainda é uma grande quantidade de informações).
+  A pesquisa é de grande valia para diversas aplicações. Com os dados obtidos, é possível obter uma boa visão da situação econômica do país. No pacote criado pelos próprios funcionários do IBGE, existe uma função que me permite selecionar apenas as variáveis que desejo da PNADc, sem precisar enfrentar a carga de dados não necessários para o projeto em questão (mesmo assim, ainda é uma grande quantidade de informações).
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/pnadcibge_portfolio.R)
 
 
