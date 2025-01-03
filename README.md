@@ -18,10 +18,11 @@ Nesse projeto, utilizei o pacote PNADcIBGE para importar os dados da pesquisa na
 
 
 # Inadimplência de pessoa física e jurídica no Brasil - gráfico animado
-Com o pacote que obtém os dados com a API oficial do Banco central do Brasil, calculei a taxa mensal de inadimplência por pessoa física e jurídica, partindo de 2011 (a data final é a data do sistema), construí um gráfico utilizando o GGplot e animei o gráfico para mostrar a variação das taxas ao longo do tempo. 
+Com o pacote que obtém os dados com a API oficial do Banco central do Brasil, calculei a taxa mensal de inadimplência por pessoa física e jurídica (ver observação) , partindo de 2011 (a data final é a data do sistema), construí um gráfico utilizando o GGplot e animei o gráfico para mostrar a variação das taxas ao longo do tempo. 
 <p align="center">
   <img src="imagens_pt/LDE_animação_pronto.gif" width="50%"> 
 </p>  
+Observação: A definição dos dados em questão é, de acordo com o site do banco central: *Percentual da carteira de crédito do Sistema Financeiro Nacional com pelo menos uma parcela com atraso superior a 90 dias. Inclui operações contratadas no segmento de crédito livre e no segmento de crédito direcionado.*
 
 [Acesse o código](https://github.com/Danieldnv/portfolio_pt/blob/main/codigos/animated_plot.R)
 
